@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Project</title>
+    <title>Web Hosting Canada</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -48,6 +47,7 @@
 
         .hero h1 {
             font-size: 3rem;
+            margin: 0;
         }
 
         .content {
@@ -65,6 +65,20 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
+        .card h2 {
+            color: #007bff;
+        }
+
+        .about, .services {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about h2, .services h2 {
+            margin: 0 0 20px;
+            color: #007bff;
+        }
+
         footer {
             background-color: #007bff;
             color: white;
@@ -74,43 +88,94 @@
             bottom: 0;
             width: 100%;
         }
+
+        .footer-links, .social-media {
+            margin: 10px 0;
+        }
+
+        .footer-links a, .social-media a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Sample Project</h1>
+        <h1>Web Hosting Canada</h1>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#plans">Hosting Plans</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
-        <h1>Welcome to Our Website</h1>
+        <h1>Your Trusted Web Hosting Partner</h1>
+        <p>Reliable and Affordable Hosting Solutions</p>
     </section>
 
-    <section class="content">
-        <div class="card">
-            <h2>About Us</h2>
-            <p>We provide high-quality services to our clients.</p>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Web Hosting Canada, we provide top-notch hosting services tailored for businesses of all sizes. Our team is dedicated to ensuring your website runs smoothly and efficiently.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="content">
+            <div class="card">
+                <h2>Shared Hosting</h2>
+                <p>Perfect for small websites and personal blogs. Get started today!</p>
+            </div>
+            <div class="card">
+                <h2>VPS Hosting</h2>
+                <p>Powerful and flexible virtual private servers for growing businesses.</p>
+            </div>
+            <div class="card">
+                <h2>Dedicated Hosting</h2>
+                <p>Experience unmatched performance with dedicated resources for your enterprise.</p>
+            </div>
         </div>
-        <div class="card">
-            <h2>Our Services</h2>
-            <p>Check out our wide range of services tailored to your needs.</p>
-        </div>
-        <div class="card">
-            <h2>Contact Us</h2>
-            <p>Get in touch with us for more information.</p>
+    </section>
+
+    <section id="plans" class="services">
+        <h2>Hosting Plans</h2>
+        <div class="content">
+            <div class="card">
+                <h2>Basic Plan</h2>
+                <p>Price: <strong>$5/month</strong></p>
+                <p>Ideal for personal websites and blogs.</p>
+            </div>
+            <div class="card">
+                <h2>Standard Plan</h2>
+                <p>Price: <strong>$10/month</strong></p>
+                <p>Perfect for small businesses with moderate traffic.</p>
+            </div>
+            <div class="card">
+                <h2>Premium Plan</h2>
+                <p>Price: <strong>$20/month</strong></p>
+                <p>Best for high-traffic websites requiring superior performance.</p>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2023 Sample Project. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>&copy; 2023 Web Hosting Canada. All rights reserved.</p>
     </footer>
 
 </body>
 </html>
+
