@@ -151,7 +151,10 @@
 <body>
 
     <header>
-        <h1>Web Hosting Canada</h1>
+        <h1>
+         <img src="https://whc.ca/wp-content/uploads/2018/02/web-hosting-canada.png" alt="Web Hosting Canada Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">
+         Web Hosting Canada
+         </h1>
         <nav>
             <ul>
                 <li><a href="#about">About Us</a></li>
