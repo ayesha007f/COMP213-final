@@ -36,7 +36,7 @@
         }
 
         .hero {
-            background: url('https://th.bing.com/th/id/R.d5959fc606208e7bd338fb99e66ad94d?rik=dU%2fYSZj4PoaJcg&pid=ImgRaw&r=0') no-repeat center center/cover;
+            background: url('https://th.bing.com/th/id/R.86a13275fe3e6d5e3feb439c254f1980?rik=CuDcpL0Lu5aqWQ&riu=http%3a%2f%2fak9.picdn.net%2fshutterstock%2fvideos%2f5227409%2fthumb%2f1.jpg&ehk=Uk0MlLhKhXOaYmqEooA6mMuOx8yPXD7dIyINq%2bos31U%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
             height: 400px;
             display: flex;
             justify-content: center;
