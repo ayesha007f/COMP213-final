@@ -118,8 +118,8 @@
     </header>
 
     <section class="hero">
-        <h1>Your Trusted Web Hosting Partner</h1>
-        <p>Reliable and Affordable Hosting Solutions</p>
+        <p><h1>Your Trusted Web Hosting Partner</h1></p>
+        <p><h2>Reliable and Affordable Hosting Solutions</h2></p>
     </section>
 
     <section id="about" class="about">
@@ -171,6 +171,7 @@
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
         </div>
+        <div>
            <a href="https://www.facebook.com/WHC.CA"><i class="fab fa-facebook"></i></a>
            <a href="https://twitter.com/webhostcanada"><i class="fab fa-twitter"></i></a>
            <a href="https://www.instagram.com/whc.ca/"><i class="fab fa-instagram"></i></a>
