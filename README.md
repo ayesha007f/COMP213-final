@@ -160,6 +160,8 @@
         <li><a href="plans.html">Hosting Plans</a></li> <!-- Add this link -->
         <li><a href="registration.html">Sign Up</a></li>
         <li><a href="login.html">Login</a></li>
+        <li><a href="registration.html">Sign Up</a></li>
+
     </ul>
 </nav>
 
