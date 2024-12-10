@@ -171,12 +171,13 @@
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
         </div>
-            <a href="https://www.facebook.com/WHC.CA"><i class="fab fa-facebook"></i></a>
-            <a href="https://twitter.com/webhostcanada"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/whc.ca/"><i class="fab fa-instagram"></i></a>
+           <a href="https://www.facebook.com/WHC.CA"><i class="fab fa-facebook"></i></a>
+           <a href="https://twitter.com/webhostcanada"><i class="fab fa-twitter"></i></a>
+           <a href="https://www.instagram.com/whc.ca/"><i class="fab fa-instagram"></i></a>
+
         </div>
         <p>&copy; 2023 Web Hosting Canada. All rights reserved.</p>
-        <p> Ayesha Fatima - 301452624 | COMP213 - Individual Project
+        <p> Ayesha Fatima - 301452624 | COMP213 - Individual Project</p>
     </footer>
 
 </body>
