@@ -191,9 +191,9 @@
             <a href="#">Terms of Service</a>
         </div>
        <div class="social-media">
-    <a href="#"><i class="fab fa-facebook" style="font-size: 30px; color: white;"></i></a>
-    <a href="#"><i class="fab fa-twitter" style="font-size: 30px; color: white;"></i></a>
-    <a href="#"><i class="fab fa-instagram" style="font-size: 30px; color: white;"></i></a>
+    <a href="https://www.facebook.com/WHC.CA"><i class="fab fa-facebook" style="font-size: 30px; color: white;"></i></a>
+    <a href="https://x.com/webhostcanada?mx=2"><i class="fab fa-twitter" style="font-size: 30px; color: white;"></i></a>
+    <a href="https://www.instagram.com/whc.ca/"><i class="fab fa-instagram" style="font-size: 30px; color: white;"></i></a>
 </div>
 
         <p>&copy; 2023 Web Hosting Canada. All rights reserved.</p>
