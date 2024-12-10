@@ -154,6 +154,15 @@
                 <li><a href="#contact">Contact Us</a></li>
                 <li><a href="#plans">Hosting Plans</a></li>
             </ul>
+            <nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="plans.html">Hosting Plans</a></li> <!-- Add this link -->
+        <li><a href="registration.html">Sign Up</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</nav>
+
         </nav>
          <div class="contact-info">
             <p>Email: contact@webhostingcanada.com</p>
