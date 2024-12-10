@@ -36,7 +36,7 @@
         }
 
         .hero {
-            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            background: url('https://whc.ca/wp-content/uploads/2018/02/web-hosting-canada.png') no-repeat center center/cover;
             height: 400px;
             display: flex;
             justify-content: center;
