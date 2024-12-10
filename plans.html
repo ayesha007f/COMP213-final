@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Hosting Plans</title>
+    <style>
+        /* CSS similar to home page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .plans {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 40px;
+            text-align: center;
+        }
+        .plan {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .plan img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Web Hosting Canada</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="plans.html">Hosting Plans</a></li>
+                <li><a href="registration.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Our Web Hosting Plans</h1>
+        <p>Choose a plan that fits your needs</p>
+    </section>
+
+    <section class="plans">
+        <div class="plan">
+            <img src="https://via.placeholder.com/50" alt="Basic Plan">
+            <h3>Basic Plan</h3>
+            <p>Price: $5/month</p>
+            <p>Ideal for personal websites and blogs.</p>
+        </div>
+        <div class="plan">
+            <img src="https://via.placeholder.com/50" alt="Standard Plan">
+            <h3>Standard Plan</h3>
+            <p>Price: $10/month</p>
+            <p>Perfect for small businesses with moderate traffic.</p>
+        </div>
+        <div class="plan">
+            <img src="https://via.placeholder.com/50" alt="Premium Plan">
+            <h3>Premium Plan</h3>
+            <p>Price: $20/month</p>
+            <p>Best for high-traffic websites requiring superior performance.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Web Hosting Canada. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
