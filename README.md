@@ -112,6 +112,10 @@
                 <li><a href="#plans">Hosting Plans</a></li>
             </ul>
         </nav>
+         <div class="contact-info">
+            <p>Email: contact@webhostingcanada.com</p>
+            <p>Phone: 1-800-123-4567</p>
+        </div>
     </header>
 
     <section class="hero">
