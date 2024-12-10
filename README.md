@@ -10,6 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f8f9fa;
         }
 
         header {
@@ -35,6 +36,7 @@
             font-weight: bold;
         }
 
+        /* Hero Section */
         .hero {
             background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
             height: 400px;
@@ -55,23 +57,33 @@
             font-size: 1.2rem;
         }
 
-        .contact-info {
-            display: none;
-            position: absolute;
-            background-color: #007bff;
-            color: white;
-            padding: 10px;
+        /* Main Content Section */
+        .content {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #ddd;
             border-radius: 5px;
-            top: 30px;
-            left: 0;
-            width: 200px;
-            z-index: 100;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
 
-        .contact-link:hover + .contact-info {
-            display: block;
+        .card h2 {
+            color: #007bff;
         }
 
+        .card p {
+            font-size: 1.1rem;
+        }
+
+        /* Footer Section */
         footer {
             background-color: #007bff;
             color: white;
@@ -82,17 +94,42 @@
             width: 100%;
         }
 
+        .footer-links a, .social-media a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
         .social-media i {
             font-size: 30px;
             color: white;
             margin: 0 10px;
         }
 
-        .footer-links a,
-        .social-media a {
-            color: white;
-            text-decoration: none;
+        /* Hosting Plans Section */
+        .plans {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 40px;
         }
+
+        .plan {
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .plan h3 {
+            color: #007bff;
+        }
+
+        .plan p {
+            font-size: 1.1rem;
+        }
+
     </style>
 </head>
 <body>
@@ -104,18 +141,15 @@
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="services.html">Our Services</a></li>
-                <li><a href="contact.html" class="contact-link">Contact Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="plans.html">Hosting Plans</a></li>
                 <li><a href="registration.html">Sign Up</a></li>
                 <li><a href="login.html">Login</a></li>
             </ul>
         </nav>
-        <div class="contact-info">
-            <p>Email: contact@webhostingcanada.com</p>
-            <p>Phone: 1-800-123-4567</p>
-        </div>
     </header>
 
+    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-text">
             <h1>Your Trusted Web Hosting Partner</h1>
@@ -123,6 +157,42 @@
         </div>
     </section>
 
+    <!-- Main Content Section -->
+    <section class="content">
+        <div class="card">
+            <h2>Shared Hosting</h2>
+            <p>Perfect for small websites and personal blogs. Get started today!</p>
+        </div>
+        <div class="card">
+            <h2>VPS Hosting</h2>
+            <p>Powerful and flexible virtual private servers for growing businesses.</p>
+        </div>
+        <div class="card">
+            <h2>Dedicated Hosting</h2>
+            <p>Experience unmatched performance with dedicated resources for your enterprise.</p>
+        </div>
+    </section>
+
+    <!-- Hosting Plans Section -->
+    <section class="plans">
+        <div class="plan">
+            <h3>Basic Plan</h3>
+            <p>Price: <strong>$5/month</strong></p>
+            <p>Ideal for personal websites and blogs.</p>
+        </div>
+        <div class="plan">
+            <h3>Standard Plan</h3>
+            <p>Price: <strong>$10/month</strong></p>
+            <p>Perfect for small businesses with moderate traffic.</p>
+        </div>
+        <div class="plan">
+            <h3>Premium Plan</h3>
+            <p>Price: <strong>$20/month</strong></p>
+            <p>Best for high-traffic websites requiring superior performance.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
     <footer>
         <div class="footer-links">
             <a href="#">Privacy Policy</a>
@@ -134,8 +204,8 @@
             <a href="https://www.instagram.com/whc.ca/"><i class="fab fa-instagram"></i></a>
         </div>
         <p>&copy; 2023 Web Hosting Canada. All rights reserved.</p>
-        <p> Ayesha Ftaima - 301452624 | COMP213 - Individual Assignment
     </footer>
 
 </body>
 </html>
+
