@@ -106,9 +106,8 @@
         <h1>Web Hosting Canada</h1>
         <nav>
             <ul>
-                 <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Our Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="plans.html">Hosting Plans</a></li>
                 <li><a href="registration.html">Sign Up</a></li>
