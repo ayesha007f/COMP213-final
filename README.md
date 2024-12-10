@@ -38,7 +38,7 @@
         }
 
         .hero {
-    background: url('https://tse1.mm.bing.net/th?id=OIP.TD3AA5f_yov9PgR5VS9-4wAAAA&pid=Api&P=0&h=180') no-repeat center center/cover;
+    background: url('https://ecommerce-platforms.com/wp-content/uploads/2021/09/web-hosting-canada-logo.png') no-repeat center center/cover;
     height: 400px;
     display: flex;
     justify-content: center;
