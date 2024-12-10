@@ -8,34 +8,34 @@
     <title>Web Hosting Canada</title>
     <style>
      .hero {
-            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
-            height: 400px;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            padding-right: 30px;
-        }
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center;
+    padding-right: 30px; /* Optional padding for spacing */
 
-        .hero-text {
-            text-align: right;
-            color: white;
-            max-width: 400px;
-        }
 
-        .hero-text h1 {
-            font-size: 2.5rem;
-            margin: 0;
-        }
+.hero-text {
+    text-align: right; /* Align text to the right */
+    color: white;
+    max-width: 400px; /* Adjust width for better alignment */
+           }
 
-        .hero-text p {
-            font-size: 1.2rem;
-        }
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin: 0;
+              }
+
+.hero-text p {
+    font-size: 1.2rem;
+            }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f8f9fa;
-        }
+             }
 
         header {
             background-color: #007bff;
