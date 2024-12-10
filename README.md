@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Hosting Canada</title>
-    <link href="https://whc.ca/wp-content/uploads/2018/02/web-hosting-canada.png" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -29,6 +29,7 @@
         nav ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
 
         nav ul li {
@@ -44,8 +45,8 @@
 
         /* Hero Section - Smaller banner */
         .hero {
-            background: url('https://via.placeholder.com/1200x200') no-repeat center center/cover;
-            height: 250px; /* Adjust height of the banner */
+            background: url('https://via.placeholder.com/1200x300') no-repeat center center/cover;
+            height: 300px; /* Adjust height of the banner */
             display: flex;
             justify-content: flex-end;
             align-items: center;
@@ -59,8 +60,9 @@
             margin: 0;
         }
 
-        .hero-text p {
-            font-size: 1.2rem;
+        .hero-text h2 {
+            font-size: 1.5rem;
+            margin: 0;
         }
 
         /* Footer Section */
@@ -85,11 +87,11 @@
 
     <!-- Logo and Navigation -->
     <header>
-        <img src="#" alt="Web Hosting Canada Logo">
+        <img src="https://mindoverlatte.com/wp-content/uploads/2021/03/WHC-affiliate-logo-1024x512.jpg" alt="Web Hosting Canada Logo">
         <h1>Web Hosting Canada</h1>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="services.html">Our Services</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -104,7 +106,7 @@
     <section class="hero">
         <div class="hero-text">
             <h1>Your Trusted Web Hosting Partner</h1>
-            <p>Reliable and Affordable Hosting Solutions</p>
+            <h2>Reliable and Affordable Hosting Solutions</h2>
         </div>
     </section>
 
@@ -112,7 +114,7 @@
     <footer>
         <div class="social-media">
             <a href="https://www.facebook.com/WHC.CA"><i class="fab fa-facebook"></i></a>
-            <a href="https://x.com/webhostcanada?mx=2"><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/webhostcanada"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/whc.ca/"><i class="fab fa-instagram"></i></a>
         </div>
         <p>&copy; 2023 Web Hosting Canada. All rights reserved.</p>
@@ -120,3 +122,5 @@
 
 </body>
 </html>
+
+
