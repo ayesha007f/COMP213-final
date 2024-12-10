@@ -117,8 +117,7 @@
     </header>
 
     <section class="hero">
-       <a><p><h1>Your Trusted Web Hosting Partner</h1></p></a>
-        <a><p><h2>Reliable and Affordable Hosting Solutions</h2></p></a>
+       <h1>Your Trusted Web Hosting Partner</h1>
     </section>
 
     <section id="about" class="about">
