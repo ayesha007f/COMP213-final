@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Hosting Canada</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://whc.ca/wp-content/uploads/2018/02/web-hosting-canada.png" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -85,7 +85,7 @@
 
     <!-- Logo and Navigation -->
     <header>
-        <img src="https://mindoverlatte.com/wp-content/uploads/2021/03/WHC-affiliate-logo-1024x512.jpg" alt="Web Hosting Canada Logo">
+        <img src="#" alt="Web Hosting Canada Logo">
         <h1>Web Hosting Canada</h1>
         <nav>
             <ul>
