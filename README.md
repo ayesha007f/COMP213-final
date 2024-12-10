@@ -10,14 +10,20 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
         }
 
+        /* Logo in the header */
         header {
             background-color: #007bff;
             color: white;
-            padding: 15px;
+            padding: 10px;
             text-align: center;
+        }
+
+        header img {
+            height: 40px; /* Adjust logo size */
+            vertical-align: middle;
+            margin-right: 10px;
         }
 
         nav ul {
@@ -36,10 +42,10 @@
             font-weight: bold;
         }
 
-        /* Hero Section */
+        /* Hero Section - Smaller banner */
         .hero {
-            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
-            height: 400px;
+            background: url('https://via.placeholder.com/1200x200') no-repeat center center/cover;
+            height: 250px; /* Adjust height of the banner */
             display: flex;
             justify-content: flex-end;
             align-items: center;
@@ -49,38 +55,12 @@
         }
 
         .hero-text h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             margin: 0;
         }
 
         .hero-text p {
             font-size: 1.2rem;
-        }
-
-        /* Main Content Section */
-        .content {
-            display: flex;
-            justify-content: space-around;
-            padding: 20px;
-            margin-top: 20px;
-        }
-
-        .card {
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 20px;
-            width: 30%;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .card h2 {
-            color: #007bff;
-        }
-
-        .card p {
-            font-size: 1.1rem;
         }
 
         /* Footer Section */
@@ -94,48 +74,19 @@
             width: 100%;
         }
 
-        .footer-links a, .social-media a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
         .social-media i {
             font-size: 30px;
             color: white;
             margin: 0 10px;
         }
-
-        /* Hosting Plans Section */
-        .plans {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            padding: 40px;
-        }
-
-        .plan {
-            background: white;
-            padding: 20px;
-            border: 1px solid #ddd;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .plan h3 {
-            color: #007bff;
-        }
-
-        .plan p {
-            font-size: 1.1rem;
-        }
-
     </style>
 </head>
 <body>
 
+    <!-- Logo and Navigation -->
     <header>
-        <h1><img src="logo.png" alt="Web Hosting Canada Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;"> Web Hosting Canada</h1>
+        <img src="logo.png" alt="Web Hosting Canada Logo">
+        <h1>Web Hosting Canada</h1>
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
@@ -149,7 +100,7 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section (Banner) -->
     <section class="hero">
         <div class="hero-text">
             <h1>Your Trusted Web Hosting Partner</h1>
@@ -157,47 +108,8 @@
         </div>
     </section>
 
-    <!-- Main Content Section -->
-    <section class="content">
-        <div class="card">
-            <h2>Shared Hosting</h2>
-            <p>Perfect for small websites and personal blogs. Get started today!</p>
-        </div>
-        <div class="card">
-            <h2>VPS Hosting</h2>
-            <p>Powerful and flexible virtual private servers for growing businesses.</p>
-        </div>
-        <div class="card">
-            <h2>Dedicated Hosting</h2>
-            <p>Experience unmatched performance with dedicated resources for your enterprise.</p>
-        </div>
-    </section>
-
-    <!-- Hosting Plans Section -->
-    <section class="plans">
-        <div class="plan">
-            <h3>Basic Plan</h3>
-            <p>Price: <strong>$5/month</strong></p>
-            <p>Ideal for personal websites and blogs.</p>
-        </div>
-        <div class="plan">
-            <h3>Standard Plan</h3>
-            <p>Price: <strong>$10/month</strong></p>
-            <p>Perfect for small businesses with moderate traffic.</p>
-        </div>
-        <div class="plan">
-            <h3>Premium Plan</h3>
-            <p>Price: <strong>$20/month</strong></p>
-            <p>Best for high-traffic websites requiring superior performance.</p>
-        </div>
-    </section>
-
     <!-- Footer Section -->
     <footer>
-        <div class="footer-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-        </div>
         <div class="social-media">
             <a href="https://www.facebook.com/WHC.CA"><i class="fab fa-facebook"></i></a>
             <a href="https://x.com/webhostcanada?mx=2"><i class="fab fa-twitter"></i></a>
@@ -208,4 +120,3 @@
 
 </body>
 </html>
-
