@@ -4,32 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Hosting Canada</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f8f9fa;
         }
 
-        /* Logo in the header */
         header {
             background-color: #007bff;
             color: white;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
-        }
-
-        header img {
-            height: 40px; /* Adjust logo size */
-            vertical-align: middle;
-            margin-right: 10px;
         }
 
         nav ul {
             list-style-type: none;
             padding: 0;
-            margin: 0;
         }
 
         nav ul li {
@@ -43,29 +35,50 @@
             font-weight: bold;
         }
 
-        /* Hero Section - Smaller banner */
         .hero {
-            background: url('https://via.placeholder.com/1200x300') no-repeat center center/cover;
-            height: 300px; /* Adjust height of the banner */
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            height: 400px;
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             align-items: center;
             color: white;
-            text-align: right;
-            padding-right: 30px;
+            text-align: center;
         }
 
-        .hero-text h1 {
-            font-size: 2.5rem;
+        .hero h1 {
+            font-size: 3rem;
             margin: 0;
         }
 
-        .hero-text h2 {
-            font-size: 1.5rem;
-            margin: 0;
+        .content {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
         }
 
-        /* Footer Section */
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            color: #007bff;
+        }
+
+        .about, .services {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about h2, .services h2 {
+            margin: 0 0 20px;
+            color: #007bff;
+        }
+
         footer {
             background-color: #007bff;
             color: white;
@@ -76,22 +89,24 @@
             width: 100%;
         }
 
-        .social-media i {
-            font-size: 30px;
+        .footer-links, .social-media {
+            margin: 10px 0;
+        }
+
+        .footer-links a, .social-media a {
             color: white;
+            text-decoration: none;
             margin: 0 10px;
         }
     </style>
 </head>
 <body>
 
-    <!-- Logo and Navigation -->
     <header>
-        <img src="https://mindoverlatte.com/wp-content/uploads/2021/03/WHC-affiliate-logo-1024x512.jpg" alt="Web Hosting Canada Logo">
         <h1>Web Hosting Canada</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="services.html">Our Services</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -102,19 +117,63 @@
         </nav>
     </header>
 
-    <!-- Hero Section (Banner) -->
     <section class="hero">
-        <div class="hero-text">
-            <h1>Your Trusted Web Hosting Partner</h1>
-            <h2>Reliable and Affordable Hosting Solutions</h2>
+        <h1>Your Trusted Web Hosting Partner</h1>
+        <p>Reliable and Affordable Hosting Solutions</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Web Hosting Canada, we provide top-notch hosting services tailored for businesses of all sizes. Our team is dedicated to ensuring your website runs smoothly and efficiently.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="content">
+            <div class="card">
+                <h2>Shared Hosting</h2>
+                <p>Perfect for small websites and personal blogs. Get started today!</p>
+            </div>
+            <div class="card">
+                <h2>VPS Hosting</h2>
+                <p>Powerful and flexible virtual private servers for growing businesses.</p>
+            </div>
+            <div class="card">
+                <h2>Dedicated Hosting</h2>
+                <p>Experience unmatched performance with dedicated resources for your enterprise.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Footer Section -->
+    <section id="plans" class="services">
+        <h2>Hosting Plans</h2>
+        <div class="content">
+            <div class="card">
+                <h2>Basic Plan</h2>
+                <p>Price: <strong>$5/month</strong></p>
+                <p>Ideal for personal websites and blogs.</p>
+            </div>
+            <div class="card">
+                <h2>Standard Plan</h2>
+                <p>Price: <strong>$10/month</strong></p>
+                <p>Perfect for small businesses with moderate traffic.</p>
+            </div>
+            <div class="card">
+                <h2>Premium Plan</h2>
+                <p>Price: <strong>$20/month</strong></p>
+                <p>Best for high-traffic websites requiring superior performance.</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <div class="social-media">
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+            <div class="social-media">
             <a href="https://www.facebook.com/WHC.CA"><i class="fab fa-facebook"></i></a>
-            <a href="https://twitter.com/webhostcanada"><i class="fab fa-twitter"></i></a>
+            <a href="https://x.com/webhostcanada?mx=2"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/whc.ca/"><i class="fab fa-instagram"></i></a>
         </div>
         <p>&copy; 2023 Web Hosting Canada. All rights reserved.</p>
@@ -122,5 +181,3 @@
 
 </body>
 </html>
-
-
