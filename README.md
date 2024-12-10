@@ -37,15 +37,17 @@
             font-weight: bold;
         }
 
-        .hero {
-    background: url('https://ecommerce-platforms.com/wp-content/uploads/2021/09/web-hosting-canada-logo.png') no-repeat center center/cover;
+       .hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
     height: 400px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; /* Align content to the right */
     align-items: center;
     color: white;
-    text-align: center;
-        }
+    text-align: right; /* Align text to the right */
+    padding-right: 20px; /* Optional padding for spacing */
+}
+
 
         .hero h1 {
             font-size: 3rem;
@@ -135,6 +137,12 @@
             <p>Phone: 1-800-123-4567</p>
         </div>
     </header>
+<section class="search-section">
+    <div style="text-align: center; padding: 20px;">
+        <input type="text" placeholder="Search hosting solutions..." style="padding: 10px; width: 60%; border: 1px solid #ccc;">
+        <button style="padding: 10px 20px; background-color: #007bff; color: white; border: none;">Search</button>
+    </div>
+</section>
 
     <section class="hero">
         <h1>Your Trusted Web Hosting Partner</h1>
