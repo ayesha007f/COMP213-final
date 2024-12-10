@@ -36,13 +36,13 @@
         }
 
         .hero {
-            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
-            height: 400px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
+    background: url('https://tse2.mm.bing.net/th?id=OIP.OTVoMI52lN1PCuLSo7u3qgAAAA&pid=Api&P=0&h=180') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
         }
 
         .hero h1 {
