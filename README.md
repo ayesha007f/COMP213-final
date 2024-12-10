@@ -36,7 +36,7 @@
         }
 
         .hero {
-    background: url('https://tse2.mm.bing.net/th?id=OIP.OTVoMI52lN1PCuLSo7u3qgAAAA&pid=Api&P=0&h=180') no-repeat center center/cover;
+    background: url('https://tse1.mm.bing.net/th?id=OIP.TD3AA5f_yov9PgR5VS9-4wAAAA&pid=Api&P=0&h=180') no-repeat center center/cover;
     height: 400px;
     display: flex;
     justify-content: center;
