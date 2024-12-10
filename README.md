@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Hosting Canada</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://mindoverlatte.com/wp-content/uploads/2021/03/WHC-affiliate-logo-1024x512.jpg" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -103,8 +103,9 @@
     <!-- Hero Section (Banner) -->
     <section class="hero">
         <div class="hero-text">
-            <h1>Your Trusted Web Hosting Partner</h1>
-            <p>Reliable and Affordable Hosting Solutions</p>
+            <h1>Your Trusted Web</h1>
+            <h1>Hosting Partner</h1>
+            <h2>Reliable and Affordable Hosting Solutions</h2>
         </div>
     </section>
 
