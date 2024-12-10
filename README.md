@@ -3,101 +3,284 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Web Hosting Company</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styling -->
+    <title>Web Hosting Canada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #282c34;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .search-section {
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .hero {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .plans {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .plan {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 30%;
+        }
+
+        footer {
+            background: #282c34;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .form-section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .form-section form {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .form-section label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        .form-section input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        .form-section button {
+            padding: 10px 20px;
+            background: #282c34;
+            color: white;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Website Logo" width="150"> <!-- Logo of the website -->
-        </div>
-        
-        <!-- Navigation Bar -->
-        <nav>
-            <ul>
-                <li><a href="registration.html">Create an Account</a></li> <!-- Link to registration page -->
-                <li><a href="login.html">Sign In</a></li> <!-- Link to login page -->
-                <li><a href="cwh.html">Canadian Web Hosting</a></li> <!-- Link to Canadian Web Hosting page -->
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Search Section -->
-    <section class="search-section">
-        <h2>Find Your Perfect Hosting Plan</h2>
-        <form action="search_results.html" method="GET"> <!-- Form for search functionality -->
-            <input type="text" placeholder="Search for hosting plans..." name="query" required>
+    <!-- Home Page -->
+    <div id="home">
+        <header>
+            <div class="logo">
+                <h1>WHC</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#registration">Sign Up</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="search-section">
+            <input type="text" placeholder="Search...">
             <button type="submit">Search</button>
-        </form>
-    </section>
+        </section>
 
-    <!-- Optional Footer Section -->
-    <footer>
-        <p>&copy; 2023 Web Hosting Company. All rights reserved.</p>
-    </footer>
+        <section class="hero">
+            <h2>Welcome to Web Hosting Canada</h2>
+            <img src="hero-image.jpg" alt="Hero Image" />
+        </section>
+
+        <footer>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Canadian Web Hosting Plans Page -->
+    <div id="plans" style="display:none;">
+        <header>
+            <div class="logo">
+                <h1>WHC</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#registration">Sign Up</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h2>Our Hosting Plans</h2>
+        </section>
+
+        <section class="plans">
+            <div class="plan">
+                <h3>Basic Plan</h3>
+                <p>Price: $5/month</p>
+                <p>Details: Suitable for personal websites.</p>
+            </div>
+            <div class="plan">
+                <h3>Standard Plan</h3>
+                <p>Price: $10/month</p>
+                <p>Details: Perfect for small businesses.</p>
+            </div>
+            <div class="plan">
+                <h3>Premium Plan</h3>
+                <p>Price: $20/month</p>
+                <p>Details: Best for high-traffic websites.</p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Registration Page -->
+    <div id="registration" style="display:none;">
+        <header>
+            <div class="logo">
+                <h1>WHC</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#registration">Sign Up</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="form-section">
+            <h2>Create Your Account</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Login Page -->
+    <div id="login" style="display:none;">
+        <header>
+            <div class="logo">
+                <h1>WHC</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#registration">Sign Up</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="form-section">
+            <h2>Login to Your Account</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Navigation script to switch between pages
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelectorAll('div[id]').forEach(div => div.style.display = 'none');
+                const target = this.getAttribute('href').substring(1);
+                document.getElementById(target).style.display = 'block';
+            });
+        });
+
+        // Display the home page by default
+        document.getElementById('home').style.display = 'block';
+    </script>
+
 </body>
-</html>body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #0056b3;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.search-section {
-    padding: 20px;
-    text-align: center;
-    background-color: #f9f9f9;
-}
-
-.search-section form {
-    display: inline-block;
-}
-
-.search-section input {
-    padding: 10px;
-    font-size: 16px;
-}
-
-.search-section button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #0056b3;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+</html>
