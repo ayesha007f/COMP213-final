@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Hosting Canada</title>
@@ -48,6 +49,22 @@
         .hero h1 {
             font-size: 3rem;
             margin: 0;
+        }
+        .contact-info {
+            display: none;
+            position: absolute;
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            top: 30px; /* Adjust the vertical position */
+            left: 0;
+            width: 200px;
+            z-index: 100;
+        }
+
+        .contact-link:hover + .contact-info {
+            display: block;
         }
 
         .content {
@@ -172,11 +189,12 @@
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
         </div>
-        <div class="social-media">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-        </div>
+       <div class="social-media">
+    <a href="#"><i class="fab fa-facebook" style="font-size: 30px; color: white;"></i></a>
+    <a href="#"><i class="fab fa-twitter" style="font-size: 30px; color: white;"></i></a>
+    <a href="#"><i class="fab fa-instagram" style="font-size: 30px; color: white;"></i></a>
+</div>
+
         <p>&copy; 2023 Web Hosting Canada. All rights reserved.</p>
     </footer>
 
