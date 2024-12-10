@@ -151,9 +151,7 @@
 <body>
 
     <header>
-        <h1>
-         Web Hosting Canada
-         </h1>
+        <h1>Web Hosting Canada</h1>
         <nav>
             <ul>
                 <li><a href="#about">About Us</a></li>
@@ -244,6 +242,7 @@
 </div>
 
         <p>&copy; 2023 Web Hosting Canada. All rights reserved.</p>
+        <p>Ayesha Fatima - 301452624 | COMP213 - Individual Project
     </footer>
 
 </body>
